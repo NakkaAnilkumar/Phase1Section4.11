@@ -11,6 +11,7 @@ namespace Phase1Section4._11
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -34,7 +35,7 @@ namespace Phase1Section4._11
             Q.delete();
 
             Console.WriteLine(Q.printQueue());
-            Console.ReadLine();
+            
         }
     }
 
